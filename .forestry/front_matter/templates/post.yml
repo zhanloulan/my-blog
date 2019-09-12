@@ -15,6 +15,3 @@ fields:
 - type: list
   name: tags
   label: tags
-- name: test
-  type: boolean
-  label: test
