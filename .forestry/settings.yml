@@ -16,10 +16,10 @@ sections:
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
-upload_dir: ''
-public_path: https://res.cloudinary.com/zhanloulan/image/upload/c_scale,w_auto:100,dpr_auto
-front_matter_path: https://res.cloudinary.com/zhanloulan/image/upload
-use_front_matter_path: true
+upload_dir: src/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
